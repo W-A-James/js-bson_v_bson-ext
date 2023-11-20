@@ -9,6 +9,13 @@ import {
   WARMUP
 } from './common';
 
+const OPTIONS = {
+  serialize: { checkKeys: true, ignoreUndefined: false },
+  deserialize: {
+    index: 0
+  }
+};
+
 async function main() {
   const suite = new Suite('MaxKey');
   const testDocs = await getTestDocs('maxkey');
@@ -22,7 +29,7 @@ async function main() {
           iterations: ITERATIONS,
           warmup: WARMUP,
           operation,
-          options: {}
+          options: OPTIONS[operation]
         });
       }
     }

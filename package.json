@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc -p ./tsconfig.json"
+    "build": "npx tsc -p ./tsconfig.json",
+    "bench": "node ./etc/run_granular_benchmarks.js && cd ./etc && ./createCSVs.sh *Results.json"
   },
   "keywords": [],
   "author": "",

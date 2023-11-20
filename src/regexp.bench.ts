@@ -4,9 +4,9 @@ import {
   runSuiteAndWriteResults,
   BSON_VERSIONS,
   BSONEXT_VERSIONS,
-  OPERATIONS,
   ITERATIONS,
-  WARMUP
+  WARMUP,
+  BOOL
 } from './common';
 
 async function main() {
@@ -15,17 +15,28 @@ async function main() {
   const testDocs = await getTestDocs('regex');
 
   for (const library of BSON_VERSIONS.concat(BSONEXT_VERSIONS)) {
-    for (const operation of OPERATIONS) {
-      for (const documentPath of testDocs) {
+    for (const documentPath of testDocs) {
+      // deserialize
+      for (const bsonRegExp of BOOL) {
         suite.task({
           documentPath,
           library,
           iterations: ITERATIONS,
           warmup: WARMUP,
-          operation,
-          options: {}
+          operation: 'deserialize',
+          options: { bsonRegExp }
         });
       }
+
+      // serialize
+      suite.task({
+        documentPath,
+        library,
+        iterations: ITERATIONS,
+        warmup: WARMUP,
+        operation: 'serialize',
+        options: {}
+      });
     }
   }
   await runSuiteAndWriteResults(suite);

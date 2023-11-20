@@ -3,12 +3,10 @@ import * as path from 'path';
 import * as fs from 'fs/promises';
 
 export const DOCUMENT_ROOT = `${__dirname}/../documents`;
-export const BSON_VERSIONS = [`bson@6`, `bson@5`, 'bson@4'];
-export const BSONEXT_VERSIONS = ['bson-ext@4.0.0'];
+export const BSON_VERSIONS = [`bson@6.2.0`, `bson@5.5.1`, 'bson@4.7.2'];
+export const BSONEXT_VERSIONS = ['bson-ext@4.0.3'];
 export const OPERATIONS: ('serialize' | 'deserialize')[] = ['serialize', 'deserialize'];
 export const BOOL = [true, false];
-export const ITERATIONS = 10_000;
-export const WARMUP = 1000;
 
 export const isDeserialize = (s: string) => s === 'deserialize';
 export async function getTestDocs(type: string) {
@@ -31,14 +29,22 @@ export async function getTestDocs(type: string) {
 
 export async function runSuiteAndWriteResults(suite: Suite) {
   await suite.run();
-  await suite.writeResults(`${suite.name.toLowerCase()}Results.json`);
+  await suite.writeResults(`./etc/${suite.name.toLowerCase()}Results.json`);
 }
 
 export function readEnvVars(): { warmup: number; iterations: number } {
   const envWarmup = Number(process.env.WARMUP);
   const envIterations = Number(process.env.ITERATIONS);
-  return {
+  const rv = {
     warmup: Number.isSafeInteger(envWarmup) && envWarmup > 0 ? envWarmup : 100_000,
     iterations: Number.isSafeInteger(envIterations) && envIterations > 0 ? envIterations : 10_000
   };
+
+  console.log(`warmup iterations: ${rv.warmup}\nmeasured iterations: ${rv.iterations}`);
+
+  return rv;
 }
+
+const envVars = readEnvVars();
+export const ITERATIONS = envVars.iterations;
+export const WARMUP = envVars.warmup;

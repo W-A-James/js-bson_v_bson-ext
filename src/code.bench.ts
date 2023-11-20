@@ -2,12 +2,17 @@ import { Suite } from 'dbx-js-tools/packages/bson-bench';
 import {
   getTestDocs,
   runSuiteAndWriteResults,
-  BSON_VERSIONS,
-  BSONEXT_VERSIONS,
   OPERATIONS,
   ITERATIONS,
+  BSON_VERSIONS,
+  BSONEXT_VERSIONS,
   WARMUP
 } from './common';
+
+const OPTIONS = {
+  serialize: { checkKeys: true, ignoreUndefined: false },
+  deserialize: { index: 0 }
+};
 
 async function main() {
   const suite = new Suite('Code');
@@ -20,11 +25,11 @@ async function main() {
       for (const documentPath of testDocs) {
         suite.task({
           documentPath,
-          library,
+          library: library,
           iterations: ITERATIONS,
           warmup: WARMUP,
           operation,
-          options: {}
+          options: OPTIONS[operation]
         });
       }
     }

@@ -2,11 +2,11 @@ import { Suite } from 'dbx-js-tools/packages/bson-bench';
 import {
   getTestDocs,
   runSuiteAndWriteResults,
-  BSON_VERSIONS,
-  BSONEXT_VERSIONS,
   OPERATIONS,
   ITERATIONS,
-  WARMUP
+  WARMUP,
+  BSON_VERSIONS,
+  BSONEXT_VERSIONS
 } from './common';
 
 async function main() {

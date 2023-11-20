@@ -1,12 +1,5 @@
 import { Suite } from 'dbx-js-tools/packages/bson-bench';
-import {
-  getTestDocs,
-  runSuiteAndWriteResults,
-  BSON_VERSIONS,
-  BSONEXT_VERSIONS,
-  ITERATIONS,
-  WARMUP
-} from './common';
+import { getTestDocs, runSuiteAndWriteResults, ITERATIONS, BSONEXT_VERSIONS, BSON_VERSIONS, WARMUP } from './common';
 
 const JSBSONDeserializationOptions = [
   {
@@ -23,7 +16,12 @@ const JSBSONDeserializationOptions = [
     useBigInt64: true
   }
 ];
-const JSBSONSerializationOptions = [{}];
+const JSBSONSerializationOptions = [
+  {
+    checkKeys: true,
+    ignoreUndefined: false
+  }
+];
 
 const BSONEXTDeserializationOptions = [
   {
@@ -35,14 +33,17 @@ const BSONEXTDeserializationOptions = [
     promoteLongs: true
   }
 ];
-const BSONEXTSerializationOptions = [{}];
+const BSONEXTSerializationOptions = [{
+  checkKeys: true,
+  ignoreUndefined: false
+}];
 
 async function main() {
   const suite = new Suite('Long');
 
   const testDocs = await getTestDocs('long');
-  // LONG JS-BSON Deserialization tests
   for (const library of BSON_VERSIONS) {
+    // LONG JS-BSON Deserialization tests
     for (const documentPath of testDocs) {
       for (const options of JSBSONDeserializationOptions) {
         suite.task({
@@ -55,10 +56,8 @@ async function main() {
         });
       }
     }
-  }
 
-  // LONG JS-BSON Serialization tests
-  for (const library of BSON_VERSIONS) {
+    // LONG JS-BSON Serialization tests
     for (const documentPath of testDocs) {
       for (const options of JSBSONSerializationOptions) {
         suite.task({
@@ -104,6 +103,7 @@ async function main() {
       }
     }
   }
+
   await runSuiteAndWriteResults(suite);
 }
 main();

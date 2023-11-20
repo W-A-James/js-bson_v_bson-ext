@@ -2,10 +2,10 @@ import { Suite } from 'dbx-js-tools/packages/bson-bench';
 import {
   getTestDocs,
   runSuiteAndWriteResults,
-  BSON_VERSIONS,
-  BSONEXT_VERSIONS,
   OPERATIONS,
   ITERATIONS,
+  BSON_VERSIONS,
+  BSONEXT_VERSIONS,
   WARMUP
 } from './common';
 
