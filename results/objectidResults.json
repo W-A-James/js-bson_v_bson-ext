@@ -1,0 +1,1262 @@
+[
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.311773740436287
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.879753939629998
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.041142189285843254
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.361331247926442
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.0611868397417359
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 4.276759838659749
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 4.527074274424027
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.056329302429094646
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.073380399272087
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.6411387837462491
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 17.2772193200666
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 19.9987656965668
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.6075560222042218
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 21.427679809440228
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.253616801560812
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 30.703037141917864
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 31.172888274817232
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 21.61196612476193
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 32.11678637072238
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.8429013510969632
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 28.579896575917424
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 29.146769512962003
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 4.973411111521034
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 29.504332033311282
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.1701981616032073
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.915858994623446
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.412328390154411
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.04935115770539338
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.6467453077799235
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1212479805148114
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.276165794966184
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.922160389102322
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.1179225499033675
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.3377299164210115
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.067156064052592
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 21.780250655836138
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 23.93718915622355
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.05007911270652599
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 25.169916041565042
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.25342854958613
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 42.45764840444072
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 44.23607075532375
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 11.2771093219988
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 45.45320277756563
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 5.1417384885088255
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 41.3434848121532
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 42.7728989459078
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 7.135703354610442
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 43.501868253147926
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 5.146443428661824
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 4.773210438761164
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 4.9794552265050624
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.04603447478720957
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.35478667464592
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.7561642121822991
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.021586177939285
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.206879357232054
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.06352966613937382
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.7755735221796005
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.8090884526522725
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 13.626119538134482
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 14.585479556503326
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.5830361585724785
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 15.86065501871888
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.0657036621359377
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 24.583564849922297
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 25.106199562387854
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 18.461017405099035
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 25.849241518552216
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.5822715168468882
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 22.83614044762671
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 23.427620265475756
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 5.15697745897376
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 23.740760069720153
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.0088731189536806
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.978248378369494
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.48717613126993
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.13899990865743203
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.759078630636438
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1664949433001692
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.306139619378163
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.966330918073805
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.10593941165274323
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.292144203272232
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.08973130521962
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 21.23993721600266
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 20.543169789059064
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.04835545461102361
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 28.737619159209967
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.985444162008844
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 41.85945367531346
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 43.555621750381725
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 10.910243415046487
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 44.74534177732483
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 5.025873680953488
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 40.303500066299975
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 41.676403961095815
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 6.67354949340198
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 42.26208180753175
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.83413416876583
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.32551174893285
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.750397504777084
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.18788517392621426
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.998772157216795
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.9849344626338237
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.411116869586373
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.742408669370885
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.3468049529638236
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.4664989297341195
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.9494623275731436
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 13.89651493957825
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 14.60378333887203
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 1.667587679899848
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 15.226537906458798
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.60709519519459
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 28.824715281103813
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 29.45209632932054
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 21.081842499089237
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 30.873792962075576
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.093909457225963
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 26.847159779913532
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 27.501607778488925
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 5.327138958956934
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 27.984852739628028
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.4323517460596045
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.238882864976917
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.887057326409557
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.20615794466480872
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.165845960000427
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.317545358438195
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.74033846711299
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.1892232938076415
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.07913359868308897
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.451623309024487
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.9577855665966386
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 20.840015605003313
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 20.567852240514803
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.05112945890224889
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 27.944454233789592
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.665653365872522
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 38.9922822961339
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 40.25424727745181
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 10.689718531549227
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 41.654140332825925
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.439203542909784
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 37.45265589870204
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 38.779756176974
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 6.849227987070603
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 39.347095147281614
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.4710407285582985
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleFieldDocument._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 1.2924498504074737
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 1.3902162115954986
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.07553727542306823
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 1.4809333281842205
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.20387057438060635
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_singleElementArray._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 2.3767773585392518
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 2.5330492140882632
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.1534845692336105
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 2.656474856382268
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.33175534941387824
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_10._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 2.0280770618182515
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 2.0897119572115797
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.09749682363767934
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 2.128183890685106
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.16327149008275438
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_1000._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 3.02317803641065
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 3.031314725948691
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 2.595487236829029
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 3.130954705485744
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.07432384198971473
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "objectid_array_100._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 2.4265138173430953
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 2.4594390437494575
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.9841557701967768
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 2.4851690613965087
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.09924582087244008
+      }
+    ]
+  }
+]

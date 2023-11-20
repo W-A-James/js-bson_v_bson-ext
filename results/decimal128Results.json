@@ -1,0 +1,1562 @@
+[
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.908727494881312
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.295882792588539
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.06472020830532202
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.926413293654206
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1316861250704409
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.877643710768839
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.982981922116682
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.32110464547384787
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.197481107096653
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1165313958853793
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 46.31908370242451
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 47.43690166963066
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 6.714919374541974
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 48.13632631229888
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.775457122238397
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 24.017780729275618
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 28.044515129534613
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.8535867482297743
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 30.8369800940744
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 6.32794618455815
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._serialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 50.0207893345826
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 51.16449811240754
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 31.847289023331232
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 51.88973388763206
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.3234221468178737
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.316458916505687
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.880725644662417
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.058911466049948305
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.257366064669623
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.2427854268532645
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.632700934963672
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.279430645078209
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.14610004462973647
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.623865368718461
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.0899825108321188
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 35.96607666829876
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 37.495660186673504
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 8.31127229593927
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 38.02923722353495
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.588316967009109
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 27.016611737368297
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 27.720891327085003
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.9458754211381861
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 28.3005646194627
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.758565708591757
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._deserialize_bson@6.2.0",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 37.37689163391635
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 38.041421601875086
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 12.115602257588602
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 39.743926305121605
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.448490020557356
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.726814723509712
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.211986354609665
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.05922679439293715
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.762450081874292
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1071320508144977
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.001712666653693
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.124975617438395
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.06856461942914212
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.4470764514540555
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1643351173238712
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 46.11613123279877
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 46.96973034666129
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 6.6521646901881715
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 47.634912643433765
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.6702078680666155
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 23.849876666260418
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 27.404730547840444
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.7887568657185827
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 30.457653800751206
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 6.230269893010509
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._serialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 47.29041878122371
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 48.15211076656196
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 31.28545312748464
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 48.970478149195024
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.019957074025112
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.096640621579867
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.626181710467853
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.04839499813735117
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.062975740672526
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1786299110556908
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.708854440502353
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.3846886656983735
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.133100961024147
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.700166134185303
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1270428560136787
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 35.81689028381059
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 37.22736817859446
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 8.105734850273807
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 37.69501166921483
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 4.54952880169855
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 25.673330483857363
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 26.278315854448937
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 1.0479637736267067
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 26.848306876096252
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.3892376448651538
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._deserialize_bson@5.5.1",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 36.05613719788523
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 36.4223097805285
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 11.921641047843734
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 39.581068652291776
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.465627424081825
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.963881877557581
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 7.402869639557652
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.2452408240976668
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.729506536386846
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.1578831570686277
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.195268843096666
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.496796712714094
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.2855230846673135
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.181354913789645
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.0053329031676024
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 46.502062512037256
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 47.39034149420475
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 6.7868167501148395
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 48.06238592772642
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.610210503170637
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 17.72722422121341
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 18.561674121268467
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.42581218140898136
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 19.346211862409007
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.0359645391422863
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._serialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 49.722011343204215
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 50.93745847757076
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 31.913707429866253
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 51.81859731320447
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.542590795919407
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 6.227184941858161
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.867933265627895
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.06846540326764346
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 7.211483549744784
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.3004448880873651
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.823261293724142
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 6.284980809901377
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.0886163954991194
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 6.497445321198626
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.9536691902149406
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 32.19424711453735
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 33.49470008438833
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 8.23788311708687
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 33.91924593670214
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 3.8524050961308802
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 25.10933112341733
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 25.82695590320697
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.9201509212113942
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 26.497795060316424
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.4920435708968114
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._deserialize_bson@4.7.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 32.40876544515359
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 32.85545249150017
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 11.634055251107046
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 35.447078412328466
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 2.87861149849205
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 3.321855529487535
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 3.50569891627534
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.05490244465638043
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 3.7008564705882354
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.4549636862991158
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 4.179755647074965
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 4.416836652927578
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.30025245838378356
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 4.622936933833913
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.5501060901347261
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 12.674782090687476
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 12.821619851972475
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 4.583932857631293
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 13.13253189922445
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.6293216910061913
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 9.28933657018844
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 9.55924472080456
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 1.4614726095232864
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 9.82004953022979
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.7504569274124647
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._serialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "checkKeys": 1,
+        "ignoreUndefined": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 13.51590145581608
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 13.567231592421027
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 11.361147326185314
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 13.929167394766104
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.34300626186039357
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleFieldDocument._deserialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 4.885327015504847
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.124933133929424
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 1.2071821267103986
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.314431064065676
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.6345061520114398
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_singleElementArray._deserialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 5.239859083954294
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 5.576836664312129
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 1.0437395311763362
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 5.744054351605672
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.7223038099421263
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_100._deserialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 9.484811428176224
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 9.779652672696255
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 4.11320677892579
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 10.760659114779463
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 0.9849013537397404
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_10._deserialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 9.356827367894507
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 9.73528439445224
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 0.6150135801303172
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 10.255624172472096
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.0452796057826217
+      }
+    ]
+  },
+  {
+    "info": {
+      "test_name": "decimal128_array_1000._deserialize_bson-ext@4.0.2",
+      "args": {
+        "warmup": 1000,
+        "iterations": 1000,
+        "index": 0,
+        "evalFunctions": 0,
+        "cacheFunctions": 0,
+        "allowObjectSmallerThanBufferSize": 0
+      }
+    },
+    "metrics": [
+      {
+        "name": "mean_megabytes_per_second",
+        "type": "MEAN",
+        "value": 11.465607512366768
+      },
+      {
+        "name": "median_megabytes_per_second",
+        "type": "MEDIAN",
+        "value": 12.003725814492668
+      },
+      {
+        "name": "min_megabytes_per_second",
+        "type": "MIN",
+        "value": 4.838292295028868
+      },
+      {
+        "name": "max_megabytes_per_second",
+        "type": "MAX",
+        "value": 12.475395936723821
+      },
+      {
+        "name": "stddev_megabytes_per_second",
+        "type": "STANDARD_DEVIATION",
+        "value": 1.6787659346973098
+      }
+    ]
+  }
+]
