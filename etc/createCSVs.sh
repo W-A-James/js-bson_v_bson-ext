@@ -2,7 +2,7 @@
 
 args=$#
 
-for (( i=1; i<$args; i+=1 ))
+for (( i=1; i<=$args; i+=1 ))
 do
   echo ${!i}
   # split on .json, take stem
