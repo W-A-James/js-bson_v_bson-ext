@@ -50,7 +50,7 @@ async function main() {
         iterations: ITERATIONS,
         warmup: WARMUP,
         operation: 'deserialize',
-        options: {}
+        options: { validation: { utf8: true } }
       });
     }
     // serialize
